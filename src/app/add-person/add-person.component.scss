@@ -1,0 +1,126 @@
+:host {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.column-layout {
+  width: 268px;
+  height: 564px;
+  min-width: 268px;
+  min-height: 564px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.column-layout_1 {
+  width: calc(100% - 268px);
+  min-width: 457px;
+  justify-content: center;
+  height: 100%;
+  min-height: 564px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.column-layout_2 {
+  width: 93%;
+  min-height: 432px;
+  justify-content: space-between;
+  height: 100%;
+  min-width: 425px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.column-layout_3 {
+  width: 92px;
+  min-width: 92px;
+  height: 92px;
+  min-height: 92px;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout {
+  height: 9%;
+  min-height: 56px;
+  min-width: 725px;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout_1 {
+  height: 91%;
+  min-width: 725px;
+  justify-content: space-between;
+  min-height: 564px;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout_2 {
+  height: 432px;
+  min-height: 432px;
+  min-width: 457px;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout_3 {
+  height: 58px;
+  min-height: 58px;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-width: 425px;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout_4 {
+  height: 36px;
+  min-height: 36px;
+  width: 425px;
+  min-width: 425px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.column-layout_4 {
+  min-height: 620px;
+  min-width: 725px;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.column-layout_5 {
+  padding: 16px 0 0;
+  background-color: rgba(0, 0, 0, 0.04);
+  min-width: 457px;
+  height: 100%;
+  min-height: 564px;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+.row-layout_5 {
+  width: 425px;
+  height: 92px;
+  min-height: 92px;
+  min-width: 425px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.text {
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.8657155797101449);
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
